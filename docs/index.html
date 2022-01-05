@@ -109,7 +109,7 @@
   <script>
   //Remove Mobile Error
   UnityLoader.compatibilityCheck = function(e, t, r){ t(); }; 
-  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", {onProgress: UnityProgress});
+  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/docs.json", {onProgress: UnityProgress});
 
   //Mobile Setting
   if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
